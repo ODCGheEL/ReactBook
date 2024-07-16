@@ -8,7 +8,7 @@ export async function fetchBookApi(query) {
       `https://freetestapi.com/api/v1/books?search=${query || ""}`
     );
     const data = await result.json();
-    console.log(data)
+    // console.log(data)
     return data;
   } catch (error) {
     console.log("api error");

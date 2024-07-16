@@ -33,9 +33,6 @@ const EditBookModal = ({ show, handleClose, id, title, description }) => {
                 setTitle(e.target.value);
               }}
             />
-            {/* <Form.Text className="text-muted">
-        We'll never share your email with anyone else.
-      </Form.Text> */}
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -56,14 +53,6 @@ const EditBookModal = ({ show, handleClose, id, title, description }) => {
               onChange={(e) => setImage(e.target.files[0])}
             />
           </Form.Group>
-          {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group> */}
-          {/* <div className="d-flex justify-content-center">
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </div> */}
         </Form>
       </Modal.Body>
       <Modal.Footer>
