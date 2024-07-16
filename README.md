@@ -9,3 +9,6 @@ This is a React application built with Vite and using Cloudinary for image manag
 - Delete books
 - View book details
 - Upload book covers using Cloudinary
+
+# Live Demo:
+https://main--react-book-odc.netlify.app/
